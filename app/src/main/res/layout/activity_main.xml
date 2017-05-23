@@ -11,7 +11,19 @@
     tools:context="com.whitewolf.mycameraapidemoapp.MainActivity">
 
     <TextView
+        android:id="@+id/mainActivityHasCameraTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_marginBottom="10dp"
+        android:text="Does device have a camera." />
+
+    <TextView
+        android:id="@+id/mainActivityHasCameraText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainActivityHasCameraTitle"
+        android:text="Answer Here" />
+
 </RelativeLayout>
+
+
